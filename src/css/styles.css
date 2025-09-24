@@ -4,12 +4,12 @@
   | default @import url()
   |============================
 */
+@import 'modern-normalize/modern-normalize.css'; 
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./category-sidebar.css');
 @import url('./content-home.css');
 @import url('./content-shopping.css');
-@import url('./mobile-window.css');
 @import url('./modal-window.css');
 @import url('./support-sidebar.css');
 @import url(./registration.css);
@@ -97,7 +97,7 @@
 }
 
 /*  desktop screen */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
   .container {
     max-width: 1440px;
     padding: 0 24px;
@@ -155,7 +155,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
   .sidebar-home-section {
     display: block;
     margin-bottom: 0px;

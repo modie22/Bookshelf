@@ -1,11 +1,11 @@
 import logo from "../images/icons.svg"
-import emptyDesk1 from '../images/shopping-list-images/books-desk@1x.png';
-import emptyDesk2 from '../images/shopping-list-images/books-desk@2x.png';
-import emptyMob1 from '../images/shopping-list-images/books-mob@1x.png';
-import amazon from '../images/modal-window/amazon.png';
-import amazon2x from '../images/modal-window/amazon@2x.png';
-import applebooks from '../images/modal-window/applebooks.png';
-import applebooks2x from '../images/modal-window/applebooks@2x.png';
+import emptyDesk1 from '../images/shopping-list-images/books-desk@1x.webp';
+import emptyDesk2 from '../images/shopping-list-images/books-desk@2x.webp';
+import emptyMob1 from '../images/shopping-list-images/books-mob@1x.webp';
+import amazon from '../images/modal-window/amazon.webp';
+import amazon2x from '../images/modal-window/amazon@2x.webp';
+import applebooks from '../images/modal-window/applebooks.webp';
+import applebooks2x from '../images/modal-window/applebooks@2x.webp';
 
 const KEY_LOCAL_STORAGE = "shoppingCard";//сюди треба ключ з вебсховища(який буде в модалці створений)
 const KEY_LOCAL_STORAGE_ID = "shoppingList";
@@ -64,7 +64,7 @@ function funCreateCard(readyCard) {
           <p class="shopping-list-card-author">${author}</p>
           <div class="shopping-list-card-container-img">
             <a href="${amazonLinks}" class="shopping-amazon-link" rel="noopener noreferrer nofollow" target="_blank">
-              <img class="shopping-list-card-icon-amazon"srcset="${amazon} 1x, ${amazon2x} 2x" src="${amazon}" alt="Amazon" loading="lazy">
+              <img class="shopping-list-card-icon-amazon" srcset="${amazon} 1x, ${amazon2x} 2x" src="${amazon}" alt="Amazon" loading="lazy">
             </a>
             <a href="${appleLinks}" class="shopping-book-link" rel="noopener noreferrer nofollow" target="_blank">
               <img class="shopping-list-card-icon-book" srcset="${applebooks} 1x, ${applebooks2x} 2x" src="${applebooks}" alt="Apple books" loading="lazy">

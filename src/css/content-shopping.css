@@ -20,7 +20,7 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
     .shopping-list-title {
         margin: 0 0 40px 20px;
     }
@@ -53,7 +53,7 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
     .shopping-list-container {
         padding-left: 20px;
         padding-right: 20px;
@@ -125,7 +125,7 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
     .shopping-list-item {
         padding: 24px;
         margin: 0 auto;
@@ -231,7 +231,7 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
     .shopping-list-card-desc {
         min-width: 796px;
     }

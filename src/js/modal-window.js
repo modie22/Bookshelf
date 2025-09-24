@@ -1,10 +1,10 @@
 import getRefs from './refs';
 import api from './books-api';
 // import markup from './markup';
-import amazon from '../images/modal-window/amazon.png';
-import amazon2x from '../images/modal-window/amazon@2x.png';
-import applebooks from '../images/modal-window/applebooks.png';
-import applebooks2x from '../images/modal-window/applebooks@2x.png';
+import amazon from '../images/modal-window/amazon.webp';
+import amazon2x from '../images/modal-window/amazon@2x.webp';
+import applebooks from '../images/modal-window/applebooks.webp';
+import applebooks2x from '../images/modal-window/applebooks@2x.webp';
 
 const refs = getRefs();
 const modal = document.getElementById('bookModal');
