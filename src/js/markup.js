@@ -12,7 +12,6 @@ function markupBookCard(book, cardClass) {
                   src="${book.book_image}"
                   alt="book image"
                   width="100%"
-                  loading="lazy"
                 />
                 <p class="book-img-overlay">quick view</p>
               </div>
