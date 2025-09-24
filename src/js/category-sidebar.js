@@ -7,8 +7,9 @@ api.fetchBookList(api.API_OPTIONS.list).then(response => {
     .map(
       ({
         list_name,
-      }) => `<li class="ctg-item js-ctg-item " data-ctg-name = ${list_name}>${list_name}
-          </li>`
+      }) => {
+        return list_name ?`<li class="ctg-item js-ctg-item " data-ctg-name = ${list_name}>${list_name}</li>`: null;
+        }
     )
     .join('');
 

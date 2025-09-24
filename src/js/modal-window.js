@@ -70,6 +70,7 @@ function openModal(bookId) {
 
 function closeModal() {
   modal.classList.remove('show');
+  goTopBtn.classList.add("back-to-top--show");
   document.body.style.overflow = ''; // Увімкнути прокручування, коли вікно закрито
 }
 
@@ -104,6 +105,7 @@ function toggleShoppingList(bookId) {
     addTextModalFooter.style.display = 'none';
   }
 }
+const goTopBtn = document.querySelector(".back-to-top");
 
 addToShoppingListBtn.addEventListener('click', () => {
   const currentBookId = modalTitle.dataset.bookId; // Отримання bookId з dataset
@@ -129,6 +131,7 @@ refs.bookCollectionWrapper.addEventListener('click', event => {
     const bookId = bookLink.dataset.id;
 
     // Виклик функції openModal для відображення модального вікна
+    goTopBtn.classList.remove("back-to-top--show");
     openModal(bookId);
   }
 });

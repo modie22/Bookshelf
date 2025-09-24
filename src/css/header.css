@@ -15,6 +15,7 @@
 }
 
 .header-mobile-burger {
+    display: flex;
     background-color: transparent;
     padding: 0;
     border: none;
@@ -230,7 +231,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .menu-toggle-close {
     position: absolute;
-    top: -54px;
+    top: -49px;
     right: 20px;
     background-color: transparent;
     border: none;
@@ -351,7 +352,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .label-them {
     position: absolute;
-    right: 45px;
+    right: 42px;
 }
 
 @media screen and (min-width: 768px) {

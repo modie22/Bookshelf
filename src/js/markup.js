@@ -33,7 +33,7 @@ function markupCategoryBlock(category) {
     .map(book => markupBookCard(book, 'top-book-card'))
     .join('');
   return `<div class="top-books-block">
-            <h2 class="top-books-category-header">${category.list_name}</h2>
+            <h2 class="top-books-category-header">${category.list_name || `Empty`}</h2>
             <ul class="top-books-category">
             ${bookCard}
             </ul>

@@ -113,22 +113,18 @@
 
     display: flex;
     min-width: 280px;
-    max-width: fit-content;
     padding: 14px;
-    margin:0 auto;
 }
 
 @media only screen and (min-width: 768px) {
     .shopping-list-item {
         padding: 24px;
-        margin: 0 auto;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .shopping-list-item {
         padding: 24px;
-        margin: 0 auto;
     }
 }
 
@@ -148,6 +144,7 @@
 
 .shopping-list-card-container {
     padding-left: 14px;
+    width: 100%;
     overflow: hidden;
 }
 
