@@ -55,6 +55,11 @@
   display: block;
   margin-bottom: 8px;
 }
+@media only screen and (max-width: 767px) {
+.category-book-card:not(:last-child){
+  margin-bottom: 40px;
+}
+}
 .top-book-card:hover .book-img-overlay,
 .category-book-card:hover .book-img-overlay,
 .book-link:focus .book-img-overlay {
