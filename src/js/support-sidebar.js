@@ -55,6 +55,9 @@ list.classList.add('js-support-list');
  
 const buttonArrow = document.createElement('button');
 buttonArrow.classList.add('support-arrow');
+if (buttonArrow) {
+    buttonArrow.setAttribute('aria-label', 'Наступний елемент підтримки');
+}
 
 buttonArrow.insertAdjacentHTML('afterbegin',
   `<svg class="support-button support-arrow-down" width="12" height="20">
